@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section__title {
+    text-align: center;
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+.example-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.color {
+    width: 200px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rgba {
+    width: 200px;
+    height: 150px;
+    background-color: rgba(231, 76, 60, 0.7);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cover {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg') no-repeat center/cover;
+    color: pink;
+}
+
+.contain {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg') no-repeat center/contain;
+    color: pink;
+}
+
+.repeat {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-repeat: repeat;
+    background-size: 50px 50px;
+    color: pink;
+}
+
+.left {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-color: #667eea;
+    color: white;
+}
+
+.center {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-color: #667eea;
+    color: white;
+}
+
+.right {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-color: #667eea;
+    color: white;
+}
+
+.linear {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #efec52, #360df0);
+    color: white;
+    border-radius: 10px;
+}
+
+.radial {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, #efec52, #360df0);
+    color: white;
+    border-radius: 10px;
+}
+
+.conic {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(from 90deg, #efec52, #360df0, #6deb47, #f00d64);
+    color: white;
+    border-radius: 10px;
+}
+
+.fixed {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg')no-repeat center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: #667eea;
+    color: white;
+    font-weight: bold;
+}
