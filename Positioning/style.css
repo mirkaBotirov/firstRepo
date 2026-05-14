@@ -1,0 +1,25 @@
+.static-box {
+    position: static;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    left: 50px; /* This will not have any effect */
+}
+
+.relative-box {
+    position: relative;
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    left: 50px; /* This will move the box 50px to the right */
+    z-index: 2;
+}
+.relative-box2 {
+    position: relative;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    left: 50px; /* This will move the box 50px to the left */
+    top: -50px; /* This will move the box 50px up */
+    z-index: 3;
+}
